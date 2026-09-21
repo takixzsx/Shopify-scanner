@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.Python
+
+# 스캔 산출물 — 제3자 업체 연락처가 들어있으므로 커밋하지 않는다.
+*.csv
+stores.txt
+stores_old.txt
+raw_cache/
+
+# 콜드메일 초안 / 발송 기록 — 위와 같은 이유.
+발송_*.md
+발송_*.html
+보낼메일_*.md
+보낼메일_*.html
+오늘_*.md
+크몽/
+
+# 리드 연락처가 코드 안에 박혀 있는 일회성 스크립트.
+make_v2.py
+
+# OS
+.DS_Store
